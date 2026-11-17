@@ -1,4 +1,4 @@
-# Hẹn Ngày Mai — Bổ sung v0.4:
+# Mây Ơi — Bổ sung v0.4:
 
 Hai bổ sung làm trải nghiệm có thêm nhịp điệu mà vẫn để người chơi tự chọn:
 
@@ -9,4 +9,4 @@ Không tự phát lời kể khi mở cửa sổ hoặc đổi bài. Rời tab s
 
 Các tính năng tâm sự, vườn việc nhỏ và kết nối người thật giữ nguyên cơ chế ở v0.3. GitHub Pages có bản trò chuyện viết sẵn và các bản kể AI tạo sẵn; Gemini trò chuyện cần backend có khóa riêng. Không gắn hiệu quả điều trị cho màu sắc, nhân vật, âm thanh hay trò chơi.
 
-Đây là phiên bản phát triển sau bản hồ sơ v0.3. Các tệp trong thư mục `Nop_bai` chưa được thay đổi theo v0.4.
+Bộ hồ sơ v0.4 được cập nhật theo tên Mây Ơi tại `../Nop_bai_May_Oi`. Các tài liệu v0.1-v0.3 và gói nộp cũ được giữ làm lịch sử. Tên thư mục và URL hen-ngay-mai được giữ để các liên kết đã gửi tiếp tục hoạt động.

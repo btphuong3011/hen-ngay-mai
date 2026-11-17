@@ -11,3 +11,7 @@
 @media(min-width:761px) and (max-width:1000px){.show-controls{width:170px;padding:13px 8px}.show-eyebrow{font-size:8px}.dance-choices small{font-size:8px}.dance-toggle{font-size:12px}.dance-music{font-size:11px}.show-controls>p{font-size:9px}}
 @media(max-width:760px){body[data-scene=stage] .garden{min-height:700px}body[data-scene=stage] .speech{top:15%}body[data-scene=stage] .mascot{top:28%;width:175px;height:187px;margin-left:-87.5px}body[data-scene=stage] .mascot-shadow{top:54%}.show-controls{width:285px}.dance-choices small{font-size:10px}.dance-choices button{min-height:44px}.dance-toggle{font-size:12px}.dance-music{font-size:11px}.show-controls>p{font-size:10px}.voice-options{font-size:11px;gap:9px}.voice-options select{font-size:11px;max-width:none}.narration-caption{font-size:11px}.voice-volume,.narration-time{font-size:11px}}
 @media(max-width:355px){.dance-choices small{font-size:9px}.voice-options{grid-template-columns:1fr}.voice-options select{max-width:none}.show-controls{max-width:calc(100% - 24px)}}
+
+/* Brand line stays readable on narrow screens. */
+.welcome .intro{max-width:410px}
+@media(max-width:540px){.welcome h1{max-width:330px}.welcome h1 br{display:block}.welcome h1 em{display:block}.welcome .intro{max-width:300px}}

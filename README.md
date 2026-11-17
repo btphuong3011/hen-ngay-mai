@@ -1,4 +1,6 @@
-# Hẹn Ngày Mai:
+# Mây Ơi:
+
+Chơi một chút. Kể Mây nghe.
 
 Trò chơi đồng hành hỗ trợ cảm xúc bằng tiếng Việt, dành cho người trưởng thành trẻ. Bản phát triển v0.4.
 
@@ -24,4 +26,4 @@ Game không cần cài thư viện để chạy. Công cụ biên soạn âm tha
 
 ## Phạm vi và nguồn:
 
-Ứng dụng không chẩn đoán, cung cấp trị liệu hoặc dịch vụ khẩn cấp; chưa có nghiên cứu hiệu quả sức khỏe. Xem `CONCEPT_V4.md`, `QA_V4.md`, `PODCAST_REFERENCES.md`, `ASSETS_GUIDE.md`, `NARRATION_CREDITS.md` để biết thiết kế, giới hạn kiểm tra và nguồn tài nguyên. Tài liệu minh họa PDF của phiên bản trước được giữ nguyên để người dự thi cập nhật sau.
+Ứng dụng không chẩn đoán, cung cấp trị liệu hoặc dịch vụ khẩn cấp; chưa có nghiên cứu hiệu quả sức khỏe. Xem `CONCEPT_V4.md`, `QA_V4.md`, `PODCAST_REFERENCES.md`, `ASSETS_GUIDE.md`, `NARRATION_CREDITS.md` để biết thiết kế, giới hạn kiểm tra và nguồn tài nguyên. Tài liệu minh họa tại `docs/minh-hoa.pdf` được cập nhật theo tên Mây Ơi và nguyên mẫu v0.4. URL giữ tên cũ để các liên kết đã gửi tiếp tục hoạt động.

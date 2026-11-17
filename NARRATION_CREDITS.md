@@ -1,6 +1,6 @@
 # Nguồn âm thanh và cách tạo:
 
-Bốn truyện nằm trong `dist/companion-engine.js`, được viết riêng cho Hẹn Ngày Mai. Chủ đề tham khảo và các liên kết podcast nằm ở `PODCAST_REFERENCES.md`; không dùng bản thu, nhạc, mẫu giọng hoặc cốt truyện đặc thù của Hêu Podcast.
+Bốn truyện nằm trong `dist/companion-engine.js`, được viết riêng cho Mây Ơi. Chủ đề tham khảo và các liên kết podcast nằm ở `PODCAST_REFERENCES.md`; không dùng bản thu, nhạc, mẫu giọng hoặc cốt truyện đặc thù của Hêu Podcast.
 
 ## Bản kể AI:
 
