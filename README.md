@@ -1,23 +1,27 @@
-# Hẹn Ngày Mai
+# Hẹn Ngày Mai:
 
-Nguyên mẫu trò chơi hỗ trợ cảm xúc bằng tiếng Việt, dành cho người trưởng thành trẻ.
+Trò chơi đồng hành hỗ trợ cảm xúc bằng tiếng Việt, dành cho người trưởng thành trẻ. Bản phát triển v0.4.
 
 ## Chơi thử:
 
 https://btphuong3011.github.io/hen-ngay-mai/
 
-Bản GitHub Pages có vườn, phòng trà, hoạt động chạm, gieo việc nhỏ, nghe chuyện và góc trò chuyện viết sẵn có nhãn rõ ràng. GitHub Pages không chạy backend Gemini.
+Vườn mây, phòng trà có mưa, sân khấu với ba điệu nhảy và nhạc tổng hợp tùy chọn, trò chơi chạm, vườn việc nhỏ và bốn bản kể AI tạo sẵn có tua/tốc độ/âm lượng. Giọng AI có ghi nhãn; không mô phỏng giọng Hêu Podcast.
 
-## Chạy bản Gemini trên máy:
+GitHub Pages chạy bản trò chuyện viết sẵn với nhãn rõ ràng. Phần kể AI là tệp âm thanh có sẵn, nghe được trực tiếp trên Pages. Gemini trò chuyện cần backend riêng.
+
+## Chạy Gemini trên máy:
 
 Cần Node.js 22 trở lên. Sao chép `.env.example` thành `.env.local`, cấu hình khóa tại máy, rồi chạy `node scripts/dev-server.mjs`. Mở http://127.0.0.1:4183/. Không đưa khóa lên GitHub hoặc mã trình duyệt.
 
-## Phạm vi:
+## Kiểm tra và build:
 
-Bản ổn định v0.3, lưu ngày 17/11/2026. Những bổ sung về giọng kể AI và sân khấu nhảy đang phát triển riêng, chưa nằm trong bản nộp này. Ứng dụng không chẩn đoán, cung cấp trị liệu hay dịch vụ khẩn cấp; chưa có nghiên cứu hiệu quả sức khỏe.
+`node --test tests/*.test.mjs`
 
-## Kiểm tra:
+`node scripts/build-worker.mjs`
 
-`node --test tests/companion.test.mjs tests/chat-api.test.mjs`
+Game không cần cài thư viện để chạy. Công cụ biên soạn âm thanh trong `scripts/` không chạy trong build: tạo lại WAV cần API và có thể mất phí; mã hóa MP3 cần Python và lameenc, xem `NARRATION_CREDITS.md`.
 
-Tham khảo `CONCEPT_V3.md`, `PODCAST_REFERENCES.md`, `ASSETS_GUIDE.md` để biết thiết kế, nguồn nội dung và tài nguyên.
+## Phạm vi và nguồn:
+
+Ứng dụng không chẩn đoán, cung cấp trị liệu hoặc dịch vụ khẩn cấp; chưa có nghiên cứu hiệu quả sức khỏe. Xem `CONCEPT_V4.md`, `QA_V4.md`, `PODCAST_REFERENCES.md`, `ASSETS_GUIDE.md`, `NARRATION_CREDITS.md` để biết thiết kế, giới hạn kiểm tra và nguồn tài nguyên. Tài liệu minh họa PDF của phiên bản trước được giữ nguyên để người dự thi cập nhật sau.

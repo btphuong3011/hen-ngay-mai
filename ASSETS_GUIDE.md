@@ -1,5 +1,11 @@
 # Tài nguyên của concept Mây
 
+## Bổ sung v0.4:
+
+- Sân khấu và các điệu nhảy dựng bằng SVG/CSS gốc trong `companion-show.js`/`companion-show.css`.
+- Bốn bản kể AI tạo sẵn nằm ở `dist/assets/narration/`; công cụ, nguồn và giới hạn được ghi tại `NARRATION_CREDITS.md`. Các mô tả giọng thiết bị phía dưới là lịch sử của phiên bản cũ.
+- Nhạc sân khấu được tổng hợp bằng mã, chỉ phát khi bật; không lấy nhạc hoặc giọng người dẫn podcast.
+
 ## Bổ sung v0.3:
 
 - `dist/assets/rain-room.png`: phòng trà tạo bằng ImageGen tích hợp; prompt ở `ROOM_ART_PROMPT.md`.

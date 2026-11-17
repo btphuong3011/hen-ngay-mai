@@ -1,0 +1,38 @@
+[
+  {
+    "id": "curiosity",
+    "duration": 67.96,
+    "bytes": 544128,
+    "file": "assets/narration/curiosity.mp3",
+    "aiGenerated": true,
+    "voice": "Sulafat",
+    "model": "gemini-3.8-flash-lite-tts"
+  },
+  {
+    "id": "ordinary",
+    "duration": 69.4,
+    "bytes": 555648,
+    "file": "assets/narration/ordinary.mp3",
+    "aiGenerated": true,
+    "voice": "Sulafat",
+    "model": "gemini-3.8-flash-lite-tts"
+  },
+  {
+    "id": "photo",
+    "duration": 69.72,
+    "bytes": 558144,
+    "file": "assets/narration/photo.mp3",
+    "aiGenerated": true,
+    "voice": "Sulafat",
+    "model": "gemini-3.8-flash-lite-tts"
+  },
+  {
+    "id": "table",
+    "duration": 72.24,
+    "bytes": 578304,
+    "file": "assets/narration/table.mp3",
+    "aiGenerated": true,
+    "voice": "Sulafat",
+    "model": "gemini-3.8-flash-lite-tts"
+  }
+]
