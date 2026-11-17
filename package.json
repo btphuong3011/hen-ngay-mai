@@ -1,0 +1,7 @@
+{
+  "name": "hen-ngay-mai",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "node scripts/dev-server.mjs", "build": "node scripts/build-worker.mjs", "test": "node --test tests/companion.test.mjs tests/chat-api.test.mjs"}
+}

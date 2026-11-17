@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.site-workflow-state/
+.env
+.env.*
+!.env.example
+API*.docx
+~$*.docx
+
